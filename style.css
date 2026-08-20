@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+.h2header{
+    text-align: center;
+}
+
+.h2headers{
+    text-align: center;
+}
+
+.linksm{
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    width: 200px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.pg{
+    text-align: right;
+}
