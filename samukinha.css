@@ -55,11 +55,11 @@ ul {
 
 /*Títulos de cada tópico e parágrafos*/
 h3 {
-  color: #2c3e50;
+  color: #2c3e50f1;
   margin-bottom: 5px;
 }
 
 /* Modifica TODOS os parágrafos do currículo */
 p {
   font-size: 14px;
-  color: #666666fa;}
+  color: #666666f7;}
