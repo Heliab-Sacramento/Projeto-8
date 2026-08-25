@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <title>Currículo - SAMUEL SANTOS DE LIMA</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="samukinha.css">
 
 </head>
 

@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  color: #333333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container principal (tipo folha A4) */
+.container {
+  max-width: 800px;
+  background: #ffffff;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Cabeçalho / Nome */
+header {
+  text-align: center;
+  border-bottom: 2px solid #0056b3;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  color: #0056b3;
+  font-size: 28px;
+}
+
+/* Seções do currículo */
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #0056b3;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+/* Textos e listas */
+p, li {
+  font-size: 14px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/*Títulos de cada tópico e parágrafos*/
+h3 {
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+/* Modifica TODOS os parágrafos do currículo */
+p {
+  font-size: 14px;
+  color: #666666;}
