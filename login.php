@@ -11,8 +11,9 @@
 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
-<body>
-    <form action="index.php" method="post">
+<body >
+    <form class="d-flex align-items-center" action="index.php" method="post">
+        <img class="mb-4" height="57" width="72" src="img/logo.png">
         <pre>
             <label for="">E-mail</label>
             <input type="email" name="email" id="">
