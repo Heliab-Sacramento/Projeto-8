@@ -7,11 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<Header></Header>
+<Header>
 
 <nav>
     <div class="logoNav">
-        <img src="logo.png" alt="logofarmacia" style="width: 100px; height: auto;">
+        <img src="img/logo.png" alt="logofarmacia" style="width: 100px; height: auto;">
     </div>
     
     <h1 style="text-align: center;">Farmácia Swag</h1>
@@ -41,6 +41,7 @@
         </a>
     </div>
 </nav>
+</Header>
 
 <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane fade show active" id="nav-home" role="tabpanel"></div>
@@ -74,7 +75,7 @@
                                 Losartana Potássica
                             </h2>
 
-                            <img src="Losartana.jpg" class="img-fluid rounded Losartana.jpg" alt="Caixa do medicamento Losartana Potássica">
+                            <img src="img/Losartana.jpg" class="img-fluid rounded Losartana.jpg" alt="Caixa do medicamento Losartana Potássica">
 
                             <a href="detalhes.php?id=1" class="btn btn-success mt-3">
                                 Mais detalhes
@@ -91,7 +92,7 @@
                                 Dipirona Sódica
                             </h2>
 
-                            <img src="dipirona.jpg" class="img-fluid rounded Dipirona" alt="Caixa do medicamento Dipirona Sódica">
+                            <img src="img/dipirona.jpg" class="img-fluid rounded Dipirona" alt="Caixa do medicamento Dipirona Sódica">
 
                             <a href="detalhes.php?id=2" class="btn btn-success mt-3">
                                 Mais detalhes
@@ -108,7 +109,7 @@
                                 Ibuprofeno
                             </h2>
 
-                            <img src="Ibuprofeno.jpg" class="img-fluid rounded Ibuprofeno" alt="Caixa do medicamento Ibuprofeno">
+                            <img src="img/Ibuprofeno.jpg" class="img-fluid rounded Ibuprofeno" alt="Caixa do medicamento Ibuprofeno">
 
                             <a href="detalhes.php?id=3" class="btn btn-success mt-3">
                                 Mais detalhes
@@ -125,7 +126,7 @@
                                 Sinvastatina
                             </h2>
 
-                            <img src="sinvastatina.jpg" class="img-fluid rounded sinvastatina" alt="Caixa do medicamento Sinvastatina">
+                            <img src="img/sinvastatina.jpg" class="img-fluid rounded sinvastatina" alt="Caixa do medicamento Sinvastatina">
 
                             <a href="detalhes.php?id=4" class="btn btn-success mt-3">
                                 Mais detalhes
@@ -142,7 +143,7 @@
                                 Omeprazol
                             </h2>
 
-                            <img src="omeprazol.jpg" class="img-fluid rounded omeprazol" alt="Caixa do medicamento Omeprazol">
+                            <img src="img/omeprazol.jpg" class="img-fluid rounded omeprazol" alt="Caixa do medicamento Omeprazol">
 
                             <a href="detalhes.php?id=5" class="btn btn-success mt-3">
                                 Mais detalhes
@@ -159,7 +160,7 @@
                                 Amoxicilina
                             </h2>
 
-                            <img src="amoxicilina.jpg" class="img-fluid rounded amoxicilina" alt="Caixa do medicamento Amoxicilina">
+                            <img src="img/amoxicilina.jpg" class="img-fluid rounded amoxicilina" alt="Caixa do medicamento Amoxicilina">
 
                             <a href="detalhes.php?id=6" class="btn btn-success mt-3">
                                 Mais detalhes
@@ -176,7 +177,7 @@
                                 Paracetamol
                             </h2>
 
-                            <img src="paracetamol.jpg" class="img-fluid rounded paracetamol" alt="Caixa do medicamento Paracetamol">
+                            <img src="img/paracetamol.jpg" class="img-fluid rounded paracetamol" alt="Caixa do medicamento Paracetamol">
 
                             <a href="detalhes.php?id=7" class="btn btn-success mt-3">
                                 Mais detalhes
@@ -193,7 +194,7 @@
                                 Azitromicina
                             </h2>
 
-                            <img src="azitromicina.jpg" class="img-fluid rounded azitromicina" alt="Caixa do medicamento Azitromicina">
+                            <img src="img/azitromicina.jpg" class="img-fluid rounded azitromicina" alt="Caixa do medicamento Azitromicina">
 
                             <a href="detalhes.php?id=8" class="btn btn-success mt-3">
                                 Mais detalhes
@@ -210,7 +211,7 @@
                                 Tadalafila
                             </h2>
 
-                            <img src="tadalafila.jpg" class="img-fluid rounded tadalafila" alt="Caixa do medicamento Tadalafila">
+                            <img src="img/tadalafila.jpg" class="img-fluid rounded tadalafila" alt="Caixa do medicamento Tadalafila">
 
                             <a href="detalhes.php?id=9" class="btn btn-success mt-3">
                                 Mais detalhes
