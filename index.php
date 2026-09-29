@@ -7,40 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<Header></Header>
-
-<nav>
-    <div class="logoNav">
-        <img src="logo.png" alt="logofarmacia" style="width: 100px; height: auto;">
-    </div>
-    
-    <h1 style="text-align: center;">Farmácia Swag</h1>
-      
-    <div class="nav nav-tabs justify-content-end" id="nav-tab" role="tablist">
-    
-        <a href="login.php" class="nav nav-tabs justify-content-end">
-            <button class="nav-link bg-success" id="nav-home-tab" type="button">
-                Login
-            </button>
-        </a>
-    
-        <a href="cadastro.php" class="nav nav-tabs justify-content-end">
-            <button class="nav-link bg-success" id="nav-profile-tab" type="button">
-                Cadastro
-            </button>
-        </a>
-    
-        <button class="nav-link active bg-success" id="nav-contact-tab" type="button">
-            Área comercial
-        </button>
-    
-        <a href="sobre.php" class="nav nav-tabs justify-content-end">
-            <button class="nav-link bg-success" id="nav-sobre-tab" type="button">
-                Sobre
-            </button>
-        </a>
-    </div>
-</nav>
 
 <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane fade show active" id="nav-home" role="tabpanel"></div>
@@ -50,6 +16,8 @@
 </div>
 
 <body>
+
+<?php include __DIR__ . '/header.php'; ?>
 
 <div class="p-1 bg-success-subtle text-success-emphasis">
     <h1>Sistema de Farmácia</h1>
