@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <form action="index.php" method="post">
+<body >
+    <form class="d-flex align-items-center" action="index.php" method="post">
+        <img class="mb-4" height="57" width="72" src="img/logo.png">
         <pre>
             <label for="">E-mail</label>
             <input type="email" name="email" id="">
