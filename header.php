@@ -12,7 +12,9 @@
 <header>
     <nav class="p-3 bg-light shadow-sm">
         <div class="logoNav">
-            <img src="logo.png" alt="logofarmacia" style="width: 100px; height: auto;">
+            <A HREF="index.php">
+            <img src="img/logo.png" alt="logofarmacia" style="width: 100px; height: auto;">
+             </A>
         </div>
         
         <h1 style="text-align: center;">Farmácia Swag</h1>
