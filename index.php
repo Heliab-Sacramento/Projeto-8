@@ -47,7 +47,7 @@
 
                             <img src="img/Losartana.jpg" class="img-fluid rounded Losartana.jpg" alt="Caixa do medicamento Losartana Potássica">
 
-                            <a href="detalhes.php?id=1" class="btn btn-success mt-3">
+                            <a href="losartana.php" class="btn btn-success mt-3">
                                 Mais detalhes
                             </a>
                         </div>
