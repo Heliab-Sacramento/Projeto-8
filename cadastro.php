@@ -16,6 +16,7 @@
 </head>
 <body>
     <form class="d-flex flex-column  align-items-center" action="index.php" method="post">
+        <img class="mb-4" height="57" width="72" src="img/logo.png">
         <pre>
             <label for="">Nome</label>
             <input type="name" name="nome" id="" class="form-control">
@@ -26,7 +27,7 @@
             <label for="">Senha</label>
             <input type="password" name="senha" id="" class="form-control">
 
-            <input type="submit" value="Cadastrar-se" class="btn btn-success">    <input type="reset" value="Limpar" class="btn btn-success">
+            <input type="submit" value="Cadastrar-se" class="btn btn-success">    <input type="reset" value="Limpar" class="btn btn-outline-secondary">
         </pre>
 
 
