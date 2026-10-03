@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farmácia Swag</title>
     <!-- CSS do Bootstrap -->
-    <link href="https://jsdelivr.net" rel="stylesheet">
+    <script src="Bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
