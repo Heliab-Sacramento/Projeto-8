@@ -21,7 +21,7 @@
             <label for="">Senha</label>
             <input type="password" name="senha" id="" class="form-control">
 
-            <input type="submit" value="enviar" class="btn btn-success">    <input type="reset" value="Limpar" class="btn btn-outline-secondary">
+            <input type="submit" value="Enviar" class="btn btn-success">    <input type="reset" value="Limpar" class="btn btn-outline-secondary">
         </pre>
     </form> 
     </div>

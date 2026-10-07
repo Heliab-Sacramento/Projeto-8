@@ -28,12 +28,6 @@
     <script src="Bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
     <section>
-
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Adicionar</button>
-        </form>
-
         <div class="container my-5">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
