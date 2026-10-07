@@ -190,6 +190,6 @@
     </section>
 
 </div>
-
+    <script src="Bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
