@@ -13,18 +13,24 @@
   <script src="Bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </head>
 
-<div class="card shadow p-4 card-body">
+<div class="row g-4 align-items-center">
+
+  <div class="col-md-7">
   <p>• Hipertensão arterial: Reduz a pressão alta ao dilatar os vasos sanguíneos.
     • Insuficiência cardíaca: Ajuda o coração a funcionar melhor.
     • Proteção renal: Retarda os danos nos rins em pacientes com diabetes tipo 2.
     • Proteção cardiovascular: Diminui o risco de derrame (AVC) e infarto em pessoas com o coração crescido (hipertrofia
     ventricular esquerda).</p>
+  </div>
+
 
   <div class="clearfix float-end">
     <h2>$Preço</h2>
   </div>
 
-  <img class="w-25" src="img/losartana.jpg" alt="">
+  <div class="col-md-5 text-center">
+    <img class="img-fluid rounded-3" style="max-height: 300px;" src="img/losartana.jpg" alt="">
+  </div>
 
   <div class="card" style="width: 18rem;">
     <div class="card-body">

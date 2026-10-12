@@ -57,12 +57,18 @@
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item" href="#">Separated link</a></li>
   </ul>
+
 </div>
 
             <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Pesquisar</button>
         </form>
-        </div>
+</div>
         
     </nav>
 </header>
+
+<script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -24,13 +24,12 @@
 
                         <div class="row align-items-center">
                             <div class="col-md-6">
-                                <img src="img/sobrebetter.png" alt="">
+                                <img src="img/sobrebetter.png" alt="" class="img-fluid w-100">
                             </div>
-                        </div>
 
                         <div class="col-md-6">
                             <h1>Sobre a farmácia SWAG</h1>
-                            <h2>O projeto de desenvolvimento de um sistema de uma farmácia tem o intuito de facilitar o
+                            <h2 class="fs-6">O projeto de desenvolvimento de um sistema de uma farmácia tem o intuito de facilitar o
                                 controle de vendas, estoque, clientes, compras, fornecedores e entre outras
                                 funcionalidades. Tal projeto será utilizado apenas dados fictícios pois tem a finalidade
                                 apenas de exercitar a nossa compreensão em PHP, MySQL e outras ferramentas que serão
