@@ -7,23 +7,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-        <link href="Bootstrap/CSS/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="Bootstrap/CSS/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
-            <script src="Bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="Bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <div class="container py-5">
-    <div class="row justify-content-center">
-    <div class="col-12 col-md-8 col-lg-5">
-    <div class="card-body p-4">
-    <div class="card shadow rounded-3 border-0 w-100">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-5">
+                <div class="card-body p-4">
+                    <div class="card shadow rounded-3 border-0 w-100">
 
-     <div class="card shadow p-4 card-body">
-        <form class="d-flex flex-column  align-items-center" action="index.php" method="post">
-            <img class="mb-4" height="57" width="72" src="img/logo.png">
-        <pre>
+                        <div class="card shadow p-4 card-body">
+                            <form class="d-flex flex-column  align-items-center" action="index.php" method="post">
+                                <img class="mb-4" height="57" width="72" src="img/logo.png">
+                                <pre>
             <label for="">Nome</label>
             <input type="name" name="nome" id="" class="form-control">
             <label for="">Data de nascimento</label>
@@ -35,16 +35,17 @@
             
             <input type="submit" value="Cadastrar-se" class="btn btn-success">    <input type="reset" value="Limpar" class="btn btn-outline-secondary">
         </pre>
-            </form>
-   
-        
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-    
+    </div>
+
 
 </body>
+
 </html>

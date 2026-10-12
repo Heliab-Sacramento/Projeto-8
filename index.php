@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,176 +21,186 @@
 
 <body>
 
-<?php include __DIR__ . '/header.php'; ?>
+    <?php include __DIR__ . '/header.php'; ?>
 
-<div class="p-1 bg-success-subtle text-success-emphasis">
-    <h1>Sistema de Farmácia</h1>
+    <div class="p-1 bg-success-subtle text-success-emphasis">
+        <h1>Sistema de Farmácia</h1>
 
-    <script src="Bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="Bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
-    <section>
-        <div class="container my-5">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <section>
+            <div class="container my-5">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
-                <!-- Losartana -->
-                <div class="col">
-                    <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
-                        <div class="card-body">
-                            <h2 class="card-title h5 text-primary mb-3">
-                                Losartana Potássica
-                            </h2>
+                    <!-- Losartana -->
+                    <div class="col">
+                        <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
+                            <div class="card-body">
+                                <h2 class="card-title h5 text-primary mb-3">
+                                    Losartana Potássica
+                                </h2>
 
-                            <img src="img/Losartana.jpg" class="img-fluid rounded Losartana.jpg" alt="Caixa do medicamento Losartana Potássica">
+                                <img src="img/Losartana.jpg" class="img-fluid rounded Losartana.jpg"
+                                    alt="Caixa do medicamento Losartana Potássica">
 
-                            <a href="losartana.php" class="btn btn-success mt-3">
-                                Mais detalhes
-                            </a>
+                                <a href="losartana.php" class="btn btn-success mt-3">
+                                    Mais detalhes
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Dipirona -->
-                <div class="col">
-                    <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
-                        <div class="card-body">
-                            <h2 class="card-title h5 text-primary mb-3">
-                                Dipirona Sódica
-                            </h2>
+                    <!-- Dipirona -->
+                    <div class="col">
+                        <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
+                            <div class="card-body">
+                                <h2 class="card-title h5 text-primary mb-3">
+                                    Dipirona Sódica
+                                </h2>
 
-                            <img src="img/dipirona.jpg" class="img-fluid rounded Dipirona" alt="Caixa do medicamento Dipirona Sódica">
+                                <img src="img/dipirona.jpg" class="img-fluid rounded Dipirona"
+                                    alt="Caixa do medicamento Dipirona Sódica">
 
-                            <a href="detalhes.php?id=2" class="btn btn-success mt-3">
-                                Mais detalhes
-                            </a>
+                                <a href="detalhes.php?id=2" class="btn btn-success mt-3">
+                                    Mais detalhes
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Ibuprofeno -->
-                <div class="col">
-                    <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
-                        <div class="card-body">
-                            <h2 class="card-title h5 text-primary mb-3">
-                                Ibuprofeno
-                            </h2>
+                    <!-- Ibuprofeno -->
+                    <div class="col">
+                        <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
+                            <div class="card-body">
+                                <h2 class="card-title h5 text-primary mb-3">
+                                    Ibuprofeno
+                                </h2>
 
-                            <img src="img/Ibuprofeno.jpg" class="img-fluid rounded Ibuprofeno" alt="Caixa do medicamento Ibuprofeno">
+                                <img src="img/Ibuprofeno.jpg" class="img-fluid rounded Ibuprofeno"
+                                    alt="Caixa do medicamento Ibuprofeno">
 
-                            <a href="detalhes.php?id=3" class="btn btn-success mt-3">
-                                Mais detalhes
-                            </a>
+                                <a href="detalhes.php?id=3" class="btn btn-success mt-3">
+                                    Mais detalhes
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Sinvastatina -->
-                <div class="col">
-                    <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
-                        <div class="card-body">
-                            <h2 class="card-title h5 text-primary mb-3">
-                                Sinvastatina
-                            </h2>
+                    <!-- Sinvastatina -->
+                    <div class="col">
+                        <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
+                            <div class="card-body">
+                                <h2 class="card-title h5 text-primary mb-3">
+                                    Sinvastatina
+                                </h2>
 
-                            <img src="img/sinvastatina.jpg" class="img-fluid rounded sinvastatina" alt="Caixa do medicamento Sinvastatina">
+                                <img src="img/sinvastatina.jpg" class="img-fluid rounded sinvastatina"
+                                    alt="Caixa do medicamento Sinvastatina">
 
-                            <a href="detalhes.php?id=4" class="btn btn-success mt-3">
-                                Mais detalhes
-                            </a>
+                                <a href="detalhes.php?id=4" class="btn btn-success mt-3">
+                                    Mais detalhes
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Omeprazol -->
-                <div class="col">
-                    <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
-                        <div class="card-body">
-                            <h2 class="card-title h5 text-primary mb-3">
-                                Omeprazol
-                            </h2>
+                    <!-- Omeprazol -->
+                    <div class="col">
+                        <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
+                            <div class="card-body">
+                                <h2 class="card-title h5 text-primary mb-3">
+                                    Omeprazol
+                                </h2>
 
-                            <img src="img/omeprazol.jpg" class="img-fluid rounded omeprazol" alt="Caixa do medicamento Omeprazol">
+                                <img src="img/omeprazol.jpg" class="img-fluid rounded omeprazol"
+                                    alt="Caixa do medicamento Omeprazol">
 
-                            <a href="detalhes.php?id=5" class="btn btn-success mt-3">
-                                Mais detalhes
-                            </a>
+                                <a href="detalhes.php?id=5" class="btn btn-success mt-3">
+                                    Mais detalhes
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Amoxicilina -->
-                <div class="col">
-                    <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
-                        <div class="card-body">
-                            <h2 class="card-title h5 text-primary mb-3">
-                                Amoxicilina
-                            </h2>
+                    <!-- Amoxicilina -->
+                    <div class="col">
+                        <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
+                            <div class="card-body">
+                                <h2 class="card-title h5 text-primary mb-3">
+                                    Amoxicilina
+                                </h2>
 
-                            <img src="img/amoxicilina.jpg" class="img-fluid rounded amoxicilina" alt="Caixa do medicamento Amoxicilina">
+                                <img src="img/amoxicilina.jpg" class="img-fluid rounded amoxicilina"
+                                    alt="Caixa do medicamento Amoxicilina">
 
-                            <a href="detalhes.php?id=6" class="btn btn-success mt-3">
-                                Mais detalhes
-                            </a>
+                                <a href="detalhes.php?id=6" class="btn btn-success mt-3">
+                                    Mais detalhes
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Paracetamol -->
-                <div class="col">
-                    <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
-                        <div class="card-body">
-                            <h2 class="card-title h5 text-primary mb-3">
-                                Paracetamol
-                            </h2>
+                    <!-- Paracetamol -->
+                    <div class="col">
+                        <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
+                            <div class="card-body">
+                                <h2 class="card-title h5 text-primary mb-3">
+                                    Paracetamol
+                                </h2>
 
-                            <img src="img/paracetamol.jpg" class="img-fluid rounded paracetamol" alt="Caixa do medicamento Paracetamol">
+                                <img src="img/paracetamol.jpg" class="img-fluid rounded paracetamol"
+                                    alt="Caixa do medicamento Paracetamol">
 
-                            <a href="detalhes.php?id=7" class="btn btn-success mt-3">
-                                Mais detalhes
-                            </a>
+                                <a href="detalhes.php?id=7" class="btn btn-success mt-3">
+                                    Mais detalhes
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Azitromicina -->
-                <div class="col">
-                    <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
-                        <div class="card-body">
-                            <h2 class="card-title h5 text-primary mb-3">
-                                Azitromicina
-                            </h2>
+                    <!-- Azitromicina -->
+                    <div class="col">
+                        <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
+                            <div class="card-body">
+                                <h2 class="card-title h5 text-primary mb-3">
+                                    Azitromicina
+                                </h2>
 
-                            <img src="img/azitromicina.jpg" class="img-fluid rounded azitromicina" alt="Caixa do medicamento Azitromicina">
+                                <img src="img/azitromicina.jpg" class="img-fluid rounded azitromicina"
+                                    alt="Caixa do medicamento Azitromicina">
 
-                            <a href="detalhes.php?id=8" class="btn btn-success mt-3">
-                                Mais detalhes
-                            </a>
+                                <a href="detalhes.php?id=8" class="btn btn-success mt-3">
+                                    Mais detalhes
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Tadalafila -->
-                <div class="col">
-                    <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
-                        <div class="card-body">
-                            <h2 class="card-title h5 text-primary mb-3">
-                                Tadalafila
-                            </h2>
+                    <!-- Tadalafila -->
+                    <div class="col">
+                        <div class="card h-100 text-center shadow-sm position-relative" style="cursor: pointer;">
+                            <div class="card-body">
+                                <h2 class="card-title h5 text-primary mb-3">
+                                    Tadalafila
+                                </h2>
 
-                            <img src="img/tadalafila.jpg" class="img-fluid rounded tadalafila" alt="Caixa do medicamento Tadalafila">
+                                <img src="img/tadalafila.jpg" class="img-fluid rounded tadalafila"
+                                    alt="Caixa do medicamento Tadalafila">
 
-                            <a href="detalhes.php?id=9" class="btn btn-success mt-3">
-                                Mais detalhes
-                            </a>
+                                <a href="detalhes.php?id=9" class="btn btn-success mt-3">
+                                    Mais detalhes
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
-        </div>
 
-    </section>
+        </section>
 
-</div>
+    </div>
     <script src="Bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
