@@ -12,6 +12,12 @@
             <script src="Bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </head>
 <body >
+    <div class="container py-5">
+    <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-5">
+    <div class="card-body p-4">
+    <div class="card shadow rounded-3 border-0 w-100">
+
     <div class="card shadow p-4 card-body">
     <form class="d-flex flex-column  align-items-center" action="index.php" method="post">
         <img class="mb-4" height="57" width="72" src="img/logo.png">
@@ -24,6 +30,11 @@
             <input type="submit" value="Enviar" class="btn btn-success">    <input type="reset" value="Limpar" class="btn btn-outline-secondary">
         </pre>
     </form> 
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
 </body>
 </html>
