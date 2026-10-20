@@ -1,15 +1,11 @@
 <?php
+$dsn = "mysql:host=localhost;dbname=Farmacia";
+$username = "root";
+$password = "";
+$pdo = new PDO($dsn, $username, $password);
 
-$host= "localhost";
-$port= "3306";
-$user= "root";
-$senha= "";
-$banco= "Farmacia";
-
-try{
-    $conn=new PDO('mysql:host='.$host.';port='.$port.';dbname='.$banco,$user,$senha);
-    $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
- }catch(PDOException $e){
-    echo'ERROR: '.$e->getMessage();  
+$stmt = $pdo->query("SELECT * FROM medicamento");
+while ($medicamento = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    echo $medicamento['nome']. "<br>";
 }
 ?>
