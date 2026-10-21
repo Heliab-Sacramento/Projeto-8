@@ -44,14 +44,6 @@ CREATE TABLE IF NOT EXISTS venda (
         ON UPDATE NO ACTION
 );
 
-
-/*CREATE TABLE IF NOT EXISTS estoque (
-  id_estoque INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  quantidade INT NOT NULL,
-  estoque_minimo INT NOT NULL,
-  localizacao VARCHAR(50) NULL COMMENT 'Em desenvolvimento'
-);*/
-
 CREATE TABLE IF NOT EXISTS fornecedor (
   id_fornecedor INT  PRIMARY KEY NOT NULL AUTO_INCREMENT,
   nome VARCHAR(100) NOT NULL,
