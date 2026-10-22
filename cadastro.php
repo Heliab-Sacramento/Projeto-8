@@ -1,4 +1,29 @@
-<?php include __DIR__ . '/header.php'; ?>
+<?php include __DIR__ . '/header.php'; 
+require_once __DIR__ . '/conexao.php';
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+    $nome = $_POST['nome'];
+    $data_nascimento = $_POST['data_nascimento'];
+    $email = $_POST['email'];
+    $senha = password_hash($_POST['senha'], PASSWORD_DEFAULT);
+
+    $sql = "INSERT INTO usuario (nome, data_nascimento, email, senha, tipo_usuario)
+            VALUES (?, ?, ?, ?, ?)";
+
+    $stmt = $pdo->prepare($sql);
+
+    $stmt->execute([
+        $nome,
+        $data_nascimento,
+        $email,
+        $senha,
+        'cliente'
+    ]);
+
+    header('Location: index.php');
+    exit;
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,13 +46,13 @@
                     <div class="card shadow rounded-3 border-0 w-100">
 
                         <div class="card shadow p-4 card-body">
-                            <form class="d-flex flex-column  align-items-center" action="index.php" method="post">
+                            <form class="d-flex flex-column  align-items-center" action="cadastro.php" method="post">
                                 <img class="mb-4" height="57" width="72" src="img/logo.png">
                                 <pre>
             <label for="">Nome</label>
             <input type="name" name="nome" id="" class="form-control">
             <label for="">Data de nascimento</label>
-            <input type="date" name="data de nascimento" id="" class="form-control">
+            <input type="date" name="data_nascimento" id="" class="form-control" required>
             <label for="">E-mail</label>
             <input type="email" name="email" id="" class="form-control">
             <label for="">Senha</label>

@@ -4,8 +4,8 @@ $username = "projeto2b8";
 $password = "projeto2b8";
 $pdo = new PDO($dsn, $username, $password);
 
-$stmt = $pdo->query("SELECT * FROM medicamento");
-while ($medicamento = $stmt->fetch(PDO::FETCH_ASSOC)) {
-    echo $medicamento['nome']. "<br>";
+$stmt = $pdo->query("SELECT * FROM usuario");
+while ($usuario = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    echo $usuario['senha']. "<br>";
 }
 ?>
