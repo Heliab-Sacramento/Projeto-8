@@ -44,6 +44,12 @@
             </a>
         </div>
 
+         <a href="perfil.php" class="text-decoration-none me-1">
+                <button class="nav-link text-white bg-success" id="nav-home-tab" type="button">
+                    Perfil
+                </button>
+            </a>
+
                <form class="d-flex" role="search">
 
             <div class="dropdown">
