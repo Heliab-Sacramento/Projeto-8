@@ -59,10 +59,6 @@
                  Medicamentos
             </a>
 
-            <a href="estoque.php" class="list-group-item list-group-item-action">
-                 Estoque
-            </a>
-
             <a href="fornecedores.php" class="list-group-item list-group-item-action">
                  Fornecedores
             </a>
