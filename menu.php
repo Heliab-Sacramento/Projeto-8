@@ -49,7 +49,7 @@
                         Medicamentos
                     </a>
 
-                    <a href="fornecedores.php" class="list-group-item list-group-item-action border-0 rounded mb-2">
+                    <a href="fornecedor.php" class="list-group-item list-group-item-action border-0 rounded mb-2">
                         Fornecedores
                     </a>
 

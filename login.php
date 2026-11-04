@@ -73,6 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <input type="password" name="senha" id="" class="form-control">
 
             <input type="submit" value="Enviar" class="btn btn-success">    <input type="reset" value="Limpar" class="btn btn-outline-secondary">
+            <a href="redefinirsenha.php">Esqueceu senha? Redefinir senha</a>
         </pre>
                             </form>
                         </div>

@@ -22,7 +22,7 @@ $medicamentos = $resultado->fetchAll(PDO::FETCH_ASSOC);
 
     <div class="container mt-5">
 
-        <h2 class="text-center mb-4">Lista de Medicamentos</h2>
+        <h2 class="text-center mb-4">Lista de Medicamentos</h2>  
 
         <table class="table table-striped table-hover table-bordered align-middle">
 
