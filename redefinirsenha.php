@@ -1,3 +1,13 @@
+<?php
+$id = 1;
+$nome = "João";
+$email = "joao@example.com";
+
+$stmt = $pdo->prepare("UPDATE usuarios SET nome = :nome, email = :email WHERE id = :id");
+$stmt->bindParam(':id', $id);
+$stmt->bindParam(':nome', $nome);
+$stmt->bindParam(':email', $email);
+$stmt->execute(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,8 +39,8 @@
                                 <pre>
             <label for="">E-mail</label>
             <input type="email" name="email" id="" class="form-control">
-            <label for="">Senha</label>
-            <input type="password" name="senha" id="" class="form-control">
+            <label for="">Nova senha</label>
+            <input type="password" name="Nova senha" id="" class="form-control">
 
             <input type="submit" value="Criar nova senha" class="btn btn-success">    <input type="reset" value="Limpar" class="btn btn-outline-secondary">
         </pre>
