@@ -1,30 +1,3 @@
-<?php include 'header.php';
-require_once 'Dao.php';
-
-session_start();
-
-
-$nome = $_POST["nome"];
-$data_nascimento = $_POST["data_nasimento"];
-$email = $_POST["email"];
-$senha = $_POST["senha"];
-
-$stmt = $pdo->prepare("INSERT INTO usuario (nome, data_nasc, email, senha) VALUES (:nome, :data_nascimento, :email, :senha)");
-$stmt->bindParam(':nome', $nome);
-$stmt->bindParam(':data_nascimento', $data_nascimento);
-$stmt->bindParam(':email', $email);
-$stmt->bindParam(':senha', $senha);
-$stmt->execute();
-
-echo "usuario cadastrado com sucesso:".$nome;
-
-
-if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true) {
-    header('Location: index.php');
-    exit;
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,7 +19,7 @@ if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true) {
                     <div class="card shadow rounded-3 border-0 w-100">
 
                         <div class="card shadow p-4 card-body">
-                            <form class="d-flex flex-column  align-items-center" action="cadastro.php" method="post">
+                            <form class="d-flex flex-column  align-items-center" action="cadastrar.php" method="post">
                                 <img class="mb-4" height="57" width="72" src="img/logo.png">
                                 <pre>
             <label for="">Nome</label>
